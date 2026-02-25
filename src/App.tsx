@@ -1,18 +1,13 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-
-      <h1 className="text-8xl font-bold underline">
-        Estamos VIVOOOOOOOOS
-      </h1>
+      <section id="about" className="p-6">
+        <h2 className="text-3xl font-bold mb-4">Acerca de mi</h2>
+        <p className="text-gray-700">Soy un desarrollador apasionado con experiencia en React y Tailwind CSS. Me encanta crear interfaces de usuario atractivas y funcionales.</p>
+      </section>
     </>
   )
 }
