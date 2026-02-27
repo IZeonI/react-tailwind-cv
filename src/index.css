@@ -1,1 +1,4 @@
 @import "tailwindcss";
+
+/* Declaracion necesaria para manejar el cambio de temas en la pagina */
+@custom-variant dark (&:where(.dark, .dark *));
